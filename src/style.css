@@ -9,7 +9,9 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  /* background: linear-gradient(68.15deg, #ff8c42 16.62%, #fcaf58 85.61%); */
+  /* background: linear-gradient(68.15deg, #FE6C2B 16.62%, #D43B2D 51.84%, #9F102C 85.43%); */
+  background: #000000;
 }
 
 .cabecalho {
@@ -31,14 +33,19 @@ body {
 
 .cabecalho-menu-item {
   font-family: 'Sarala', sans-serif;
-  color: #FFF2E7;
+  color: #fefefe;
   font-weight: 400;
-  font-size: 18px
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cabecalho-menu-item:hover{
+  color: #f44708;
 }
 
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid #f44708;
 }
 
 .conteudo-principal {
@@ -58,31 +65,33 @@ body {
   font-family: 'Righteous', cursive;
   font-weight: 400;
   font-size: 64px;
-  color: #FFF2E7;
+  color: #fefefe;
 }
 
 .conteudo-principal-escrito-subtitulo {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #ECD6C4;
+  color: #fefefe;
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #ECD6C4;
   width: 180px;
   height: 60px;
-  border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #2F2325;
+  color: #fefefe;
+  background: transparent;
+  border-color: #f44708;
+  cursor: pointer;
 }
 
 .conteudo-principal-escrito-botao:hover {
-  background-color: rgba(236, 214, 196, 0.53);
+  background-color: #f27f34;
+  border-color: #f27f34;
 }
 
 .conteudo-principal-imagem {
@@ -103,7 +112,7 @@ body {
   font-family: 'Righteous', cursive;
   font-weight: 400;
   font-size: 24px;
-  color: #FFF2EF;
+  color: #fefefe;
   margin-bottom: 16px;
 }
 
@@ -111,12 +120,12 @@ body {
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #ECD6C4;
+  color: #fefefe;
 }
 
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid #FFF2E7;
+  padding: 32px;
+  border-top: 0.4px solid #f44708;
 }
 
 .rodape-imagem {
