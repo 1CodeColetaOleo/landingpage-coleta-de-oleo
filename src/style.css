@@ -96,6 +96,9 @@ body {
 
 .conteudo-principal-imagem {
   height: 430px;
+  border: 1px solid #f44708;
+  border-radius: 20px;
+  margin-top: 2rem;
 }
 
 .conteudo-secundario {
