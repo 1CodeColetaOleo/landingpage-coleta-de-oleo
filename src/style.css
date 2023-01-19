@@ -92,6 +92,7 @@ body {
 .conteudo-principal-escrito-botao:hover {
   background-color: #f27f34;
   border-color: #f27f34;
+  transform: scale(1.1); /*teste*/
 }
 
 .conteudo-principal-imagem {
@@ -135,4 +136,43 @@ body {
   height: 48px;
   display: block;
   margin: 0 auto;
+}
+
+/*Form*/
+
+form {
+  margin: 40px 0 0 30px;
+}
+form label {
+  display:block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #ffff;
+}
+.input-form{
+  display:block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border-radius: 15px;
+  font-size: 18px;
+  border:none;
+  resize: none;
+}
+.enviar{
+  width:20%;
+  padding: 15px 0;
+  background: #f44708;
+  border-radius: 15px;
+  border:none;
+  cursor:pointer;,
+  font-weight: bold;
+  font-size:18px;
+  color: white;
+  transition: 1s background;
+
+}
+.enviar:hover{
+  background: #f27f34;
+
 }
