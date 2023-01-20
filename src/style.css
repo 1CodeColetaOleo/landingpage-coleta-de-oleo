@@ -7,14 +7,11 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Buenard', serif, sans-serif;
-  
 
 }
 
 body {
   font-size: 100%;
-  /* background: linear-gradient(68.15deg, #ff8c42 16.62%, #fcaf58 85.61%); */
-  /* background: linear-gradient(68.15deg, #FE6C2B 16.62%, #D43B2D 51.84%, #9F102C 85.43%); */
   background: #000000;
 }
 
@@ -113,6 +110,7 @@ body {
   align-items: center;
   gap: 24px;
   margin-top: 48px;
+  padding-bottom: 70px
 }
 
 .conteudo-secundario-titulo {
@@ -143,37 +141,56 @@ body {
   margin: 0 auto;
 }
 
+.conteudo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-top: 0.4px solid #f44708;
+}
+
+.conteudo-form-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
 /*Form*/
 
 .titulo-h1{
-  /* font-weight: bold; */
   color:white;
   font-size:40px;
-  margin: 40px 20px;
-font-family: 'Roboto Slab', serif, sans-serif;
+  margin-to: 40px;
+  font-family: 'Roboto Slab', serif, sans-serif; 
 }
 
-form {
-  margin: 40px 0 0 30px;
-}
 form label {
   display:block;
   font-size: 20px;
   margin: 0 0 10px;
   color: #ffff;
 }
+
 .input-form{
   display:block;
-  margin: 0 0 20px;
+  margin-bottom: 20px;
   padding: 10px 25px;
-  width: 50%;
+  width: 100%;
   border-radius: 15px;
-  font-size: 18px;
+  font-size: 20px;
   border:none;
   resize: none;
   background: #27272a;
-  outline: none;
+  
+  color: white;
 }
+
+.input-form:focus {
+  outline: 2px solid #f44708;
+}
+
 .enviar{
   width:20%;
   padding: 15px 0;
@@ -184,13 +201,38 @@ form label {
   font-weight: bold;
   font-size:18px;
   color: white;
-  transition: 1s background;
-
+  transition: 1s ;
 }
+
 .enviar:hover{
   background: #f27f34;
+}
+
+.conteudo-form-button{
+  display: flex;
+  width: 100%;
+  justify-content: center;
 
 }
+
+/* maps */
+.conteudo-maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-top: 0.4px solid #f44708;
+  margin-top: 2%;
+}
+
+.conteudo-maps-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
 .mapa{
-  margin: 2% 16%;
+  margin-top: 4%;
 }
