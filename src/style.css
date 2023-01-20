@@ -91,8 +91,9 @@ body {
 
 .conteudo-principal-escrito-botao:hover {
   background-color: #f27f34;
-  border-color: #f27f34;
+  /* border-color: #f27f34; */
   transform: scale(1.1); /*teste*/
+  border:none;
 }
 
 .conteudo-principal-imagem {
@@ -140,6 +141,13 @@ body {
 
 /*Form*/
 
+.titulo-contato{
+  font-weight: bold;
+  color:white;
+  font-size:40px;
+  margin: 40px 20px;
+}
+
 form {
   margin: 40px 0 0 30px;
 }
@@ -158,6 +166,8 @@ form label {
   font-size: 18px;
   border:none;
   resize: none;
+  background: #27272a;
+  outline: none;
 }
 .enviar{
   width:20%;
