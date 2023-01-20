@@ -134,6 +134,31 @@ body {
   color: #fefefe;
 }
 
+.conteudo-sobre-nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-top: 0.4px solid #f44708;
+}
+
+.conteudo-sobre-nos-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%;
+  width: 50%;
+}
+
+.conteudo-sobre-nos-div > h2{
+  margin-top: 4%;
+}
+
+.conteudo-sobre-nos-div > p{
+  margin-bottom: 8%;
+}
+
 .rodape {
   padding: 32px;
   border-top: 0.4px solid #f44708;
