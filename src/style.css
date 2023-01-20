@@ -166,7 +166,7 @@ body {
   font-family: 'Roboto Slab', serif, sans-serif; 
 }
 
-form label {
+.form-label {
   display:block;
   font-size: 20px;
   margin: 0 0 10px;

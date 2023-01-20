@@ -5,23 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil!">
-  <title >Coleta de Óleo</title>
+  <title>Coleta de Óleo</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
   <header class="cabecalho">
-    <img class="cabecalho-imagem" src="logo.svg" alt="Logo da comunidade Ballerini">
+    <img class="cabecalho-imagem" id="#logo" src="logo.svg" alt="Logo da comunidade Ballerini">
     <nav class="cabecalho-menu">
-      <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Home</a>
-      <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Sobre Nós</a>
+      <a class="cabecalho-menu-item" href="#logo">Home</a>
+      <a class="cabecalho-menu-item" href="#sobreNos">Sobre Nós</a>
       <a class="cabecalho-menu-item" href="#pontoDeColeta">Ponto de Coleta</a>
       <a class="cabecalho-menu-item" href="#contato">Contato</a>
       <a class="cabecalho-menu-item">Login</a>
       <a class="cabecalho-menu-item">Registre-se</a>
     </nav>
   </header>
-  
+
 
   <main class="conteudo">
     <section class="conteudo-principal">
@@ -34,7 +34,24 @@
       <img class="conteudo-principal-imagem" src="./assets/reciclagem.svg"
         alt="Imagem de duas pessoas coletando óleo de cozinha">
     </section>
+    <section>
+      <h1 class="titulo-h1" id="#sobreNos">Sobre nós</h1>
+      <p>
+        Somos estudantes do +Code, nossa equipe tem o propósito de trazer mudança as periferias, conectando tecnologia e
+        meio ambiente.
+        Nossa equipe por meio do Coleta de Óleos, temos o intuito de conscientizar e auxiliar as famílias para que
+        possam ter uma renda extra ajudando a cuidar do meio ambiente com uma pequena ação de coletar óleo.
+        Com base na ODS 12- Consumo e produção responsaveis que considera "assegurar padrões de produção e de consumo
+        sustentáveis", a coleta de óleo correta é uma das práticas em que paises que são parte da ONU se comprometeram
+        em cumprir até 2030.
+      </p>
 
+       <h2 class="titulo-h1"> O que fazemos?</h2>
+       <p> A ideia é que por base de um app ou site, seja possivel encontrar locais para coletas de óleo nas comunidades.
+        Podendo assim, o descarte do óleo ser revertido em renda ao morador ou ser destinado corretamente para empresas
+        que poderão transformar em produtos como detergente ou sabão, enviando uma parte de lucros de vendas ou produtos
+        para projetos sociais voltados para a própria comunidade. </p>
+    </section>
     <section class="conteudo-secundario">
       <h3 class="conteudo-secundario-titulo">Quais as vantagens de realizar o descarte correto do óleo de cozinha</h3>
       <p class="conteudo-secundario-paragrafo">1. Cria um <strong>sistema de verificação capcha</strong> para novos
@@ -47,18 +64,18 @@
 
     <section class="conteudo-form">
       <div class="conteudo-form-div">
-        <h1 class="titulo-h1">Contato</h1>
+        <h1 class="titulo-h1"><a id="#contato"> Contato </a></h1>
         <form>
-          <label for="nome">Nome</label>
+          <label class="form-label" for="nome">Nome</label>
           <input type="text" id="nome" class="input-form" required placeholder="Nome">
 
-          <label for="email">Email</label>
+          <label class="form-label" for="email">Email</label>
           <input type="email" id="email" class="input-form" required placeholder="seuemail@dominio.com">
 
-          <label for="telefone">Telefone</label>
+          <label class="form-label" for="telefone">Telefone</label>
           <input type="tel" id="telefone" class="input-form" required placeholder="(xx) xxxxx-xxxx">
 
-          <label for="mensagem">Mensagem</label>
+          <label class="form-label" for="mensagem">Mensagem</label>
           <textarea id="mensagem" class="input-form" cols="70" rows="10" required
             placeholder="Escreva sua mensagem...."></textarea>
           <div class="conteudo-form-button">
@@ -70,7 +87,7 @@
 
     <section class="conteudo-maps">
       <div class="conteudo-maps-div">
-        <h1 class="titulo-h1"> Encontre pontos de coletas próximos a você</h1>
+        <h1 class="titulo-h1"><a id="pontoDeColeta"> Encontre pontos de coletas próximos a você</a></h1>
         <iframe class="mapa"
           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d69530.68564507998!2d-46.687527849790335!3d-23.666782810986053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scoleta%20de%20oleo%20usado!5e0!3m2!1spt-BR!2sbr!4v1674181335095!5m2!1spt-BR!2sbr"
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
