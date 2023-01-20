@@ -183,8 +183,12 @@ form label {
   border:none;
   resize: none;
   background: #27272a;
-  outline: none;
+  
   color: white;
+}
+
+.input-form:focus {
+  outline: 2px solid #f44708;
 }
 
 .enviar{
