@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Buenard&family=Roboto+Slab:wght@300&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Buenard', serif, sans-serif;
+  
+
 }
 
 body {
@@ -141,11 +145,12 @@ body {
 
 /*Form*/
 
-.titulo-contato{
-  font-weight: bold;
+.titulo-h1{
+  /* font-weight: bold; */
   color:white;
   font-size:40px;
   margin: 40px 20px;
+font-family: 'Roboto Slab', serif, sans-serif;
 }
 
 form {
@@ -185,4 +190,7 @@ form label {
 .enviar:hover{
   background: #f27f34;
 
+}
+.mapa{
+  margin: 2% 16%;
 }
