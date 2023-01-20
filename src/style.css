@@ -84,15 +84,19 @@ body {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #fefefe;
-  background: transparent;
   border-color: #f44708;
+  background: transparent;
   cursor: pointer;
+}
+
+.conteudo-principal-escrito-botao a {
+  border: none;
+  background: transparent;
+  color: white;
 }
 
 .conteudo-principal-escrito-botao:hover {
   background-color: #f27f34;
-  /* border-color: #f27f34; */
   transform: scale(1.1); /*teste*/
   border:none;
 }
