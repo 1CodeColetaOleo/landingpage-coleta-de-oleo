@@ -210,6 +210,25 @@ form label {
   justify-content: center;
 
 }
+
+/* maps */
+.conteudo-maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-top: 0.4px solid #f44708;
+  margin-top: 2%;
+}
+
+.conteudo-maps-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
 .mapa{
-  margin: 2% 16%;
+  margin-top: 4%;
 }
