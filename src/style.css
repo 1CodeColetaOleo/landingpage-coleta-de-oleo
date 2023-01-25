@@ -45,7 +45,7 @@ body {
 }
 
 .conteudo {
-  margin-bottom: 48px;
+  margin-bottom: 30px;
   border-top: 0.4px solid #f44708;
 }
 
@@ -132,6 +132,8 @@ body {
   font-weight: 300;
   font-size: 18px;
   color: #fefefe;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .conteudo-sobre-nos {
@@ -164,11 +166,6 @@ body {
   border-top: 0.4px solid #f44708;
 }
 
-.rodape-imagem {
-  height: 48px;
-  display: block;
-  margin: 0 auto;
-}
 
 .conteudo-form {
   display: flex;
@@ -183,7 +180,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 /*Form*/
@@ -191,9 +188,9 @@ body {
 .titulo-h1{
   color:white;
   font-size:40px;
-  margin-to: 40px;
+  margin-bottom: 40px;
   font-family: 'Roboto Slab', serif, sans-serif; 
-  font-weight:bold;
+  font-weight:  bold;
 }
 
 .form-label {
@@ -261,8 +258,15 @@ body {
   align-items: center;
   flex-direction: column;
   margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .mapa{
   margin-top: 4%;
+}
+
+/*Rodape*/
+.rodape-text{
+  color: white;
+  text-align: center;
 }
